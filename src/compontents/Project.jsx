@@ -19,7 +19,7 @@ const data = [
   {
     title: "Dice game",
     tool: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
-    url: "/public/image/project-1.png",
+    url: "../image/project-1.png",
     content:
       "This website using the basics javascript program. This game have play two player",
     link: "https://dice-roll-game-js.netlify.app/",
@@ -28,7 +28,7 @@ const data = [
   {
     title: "Mapty",
     tool: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
-    url: "/public/image/project-2.png",
+    url: "../image/project-2.png",
     content:
       "This is map based website. I use leaflet api to dispaly the map in the website. To mark the runnig km and distance and mark in the map to identify the place. ",
     link: "https://mapty-app-workout.netlify.app/",
@@ -37,7 +37,7 @@ const data = [
   {
     title: "Bankist",
     tool: [<SiHtml5 />, <SiSass />, <SiJavascript />],
-    url: "/public/image/project-3.png",
+    url: "../image/project-3.png",
     content:
       "This is the bank website. user interface to show the information and service provide by the bank.so the client know the information. ",
     link: "https://bankist-frontent.netlify.app/",
@@ -46,7 +46,7 @@ const data = [
   {
     title: "Bankist money",
     tool: [<SiHtml5 />, <SiSass />, <SiJavascript />],
-    url: "/public/image/project-4.png",
+    url: "../image/project-4.png",
     content:
       "This the full function of the bankist website. this website have userid and password to enter. After tranfer the money form one user to another user and request for the loan.",
     link: "https://bankist-function.netlify.app/",
@@ -55,7 +55,7 @@ const data = [
   {
     title: "Fast pizza",
     tool: [<SiReact />, <SiReactrouter />, <SiRedux />, <SiTailwindcss />],
-    url: "/public/image/project-5.png",
+    url: "../image/project-5.png",
     content:
       "This is the pizza ordering wesite. using Tailwindcss, react-rouder and Redux state management. the user select the pizza and add to the cart. After place the order.",
     link: "https://fast-pizza-deepak.netlify.app/",
@@ -64,7 +64,7 @@ const data = [
   {
     title: "Portfolio-v1",
     tool: [<SiReact />, <SiStyledcomponents />, <SiReactrouter />],
-    url: "/public/image/project-6.png",
+    url: "../image/project-6.png",
     content:
       "This is my first version portfolio. using stylescomponents and react-router",
     link: "https://reactdeepak.netlify.app/",
