@@ -4,7 +4,7 @@ import Home from "./compontents/Home";
 import About from "./compontents/About";
 import Skill from "./compontents/Skill";
 import Project from "./compontents/Project";
-import Contact from "./compontents/contact";
+import Contact from "./compontents/Contact";
 
 function App() {
   document.title = "🙂 Deepak portfolio";
