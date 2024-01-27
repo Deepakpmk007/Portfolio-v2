@@ -1,0 +1,135 @@
+.skill {
+  height: 90vh;
+}
+
+.skill h1 {
+  font-size: 4rem;
+  margin-top: 60px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 40px 100px;
+}
+
+.icons > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  min-width: 15vw;
+  gap: 15px;
+  font-size: 1.3rem;
+  text-shadow: 1 0px 10px 20px #000;
+}
+
+.skill svg {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+@media (max-width: 412px) {
+  .skill {
+    min-height: 60vh;
+  }
+  .skill h1 {
+    font-size: 1.8rem;
+    margin-top: 100px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 40px 10px;
+  }
+
+  .icons > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    min-width: 15vw;
+    gap: 35px;
+    font-size: 1.3rem;
+  }
+
+  .skill svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .skill {
+    min-height: 60vh;
+  }
+  .skill h1 {
+    font-size: 1.8rem;
+    margin-top: 100px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 40px 10px;
+  }
+
+  .icons > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    min-width: 15vw;
+    gap: 35px;
+    font-size: 1.3rem;
+  }
+
+  .skill svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 648px) {
+  .skill {
+    height: 60vh;
+  }
+  .skill h1 {
+    font-size: 1.8rem;
+    margin-top: 100px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 40px 10px;
+  }
+
+  .icons > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    min-width: 15vw;
+    gap: 35px;
+    font-size: 1.3rem;
+  }
+
+  .skill svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

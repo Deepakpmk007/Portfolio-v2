@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  color: #212121;
+  padding: 0 100px;
+  font-family: "Rubik", sans-serif;
+
+  /* position: relative; */
+}
+/* font-family: 'Rubik', sans-serif;
+font-family: 'VT323', monospace; */
+
+@media (max-width: 412px) {
+  .main {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 475px) {
+  .main {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 648px) {
+  .main {
+    /* padding: 0 0px; */
+  }
+}
