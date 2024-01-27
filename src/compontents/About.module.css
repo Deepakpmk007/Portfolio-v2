@@ -63,7 +63,7 @@
 
 @media (max-width: 475px) {
   .aboutMe {
-    height: 850vh;
+    height: 85vh;
   }
   .aboutMe h1 {
     font-size: 2rem;
