@@ -1,5 +1,5 @@
 .skill {
-  height: 90vh;
+  height: max-content;
 }
 
 .skill h1 {
@@ -34,8 +34,6 @@
 
 @media (max-width: 412px) {
   .skill {
-    min-height: 60vh;
-    margin-top: 100px;
   }
   .skill h1 {
     font-size: 1.8rem;
@@ -69,7 +67,7 @@
 
 @media (max-width: 475px) {
   .skill {
-    min-height: 60vh;
+    /* min-height: 60vh; */
   }
   .skill h1 {
     font-size: 1.8rem;
@@ -103,7 +101,7 @@
 
 @media (max-width: 648px) {
   .skill {
-    height: 60vh;
+    /* height: 60vh; */
   }
   .skill h1 {
     font-size: 1.8rem;

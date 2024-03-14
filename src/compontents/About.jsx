@@ -12,7 +12,7 @@ const datas = [
     data: " I learn now back-end development with nodejs to became full-stack developer one day.",
   },
   {
-    data: "I learn quickly, I like to learn things.",
+    data: "I learn quickly, I like to learn new things.",
   },
   {
     data: "My hobbies are reading books, traveling, watch movies and series.",
@@ -70,7 +70,12 @@ function About() {
         ))}
 
         <button>
-          <a>My resume</a>
+          <a
+            href="https://drive.google.com/file/d/1B9LnnnYM0JvHAu7EkxLORjb2lA23Nx5o/view"
+            target="block"
+          >
+            My resume
+          </a>
         </button>
       </div>
     </div>

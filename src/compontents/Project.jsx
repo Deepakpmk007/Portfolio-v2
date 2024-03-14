@@ -119,6 +119,29 @@ function Project() {
     const newSlide = isLastSlide ? 0 : currentSlide + 1;
     setCurrentSlide(newSlide);
   }
+
+  const project = data.map((el) => (
+    <div className={styles.imgSliderContainer}>
+      <div className={styles.inner}>
+        <div className={styles.innerContiner}>
+          <h1 className={styles.title}>{el.title}</h1>
+          <p className={styles.title}>{el.content}</p>
+          <div className={styles.tools}>{el.tool}</div>
+          <section>
+            <motion.a href={el.link} target="block">
+              Link
+            </motion.a>
+            <motion.a href={el.github} target="block">
+              Github
+            </motion.a>
+          </section>
+        </div>
+        <motion.img src={el.url} />
+        {/* <div className={styles.blur}></div> */}
+      </div>
+    </div>
+  ));
+
   return (
     <div className={styles.project} id="project">
       <motion.h1
@@ -129,29 +152,7 @@ function Project() {
       >
         Projects
       </motion.h1>
-
-      <div className={styles.imgSliderContainer}>
-        <FaArrowLeft onClick={pervSlide}>pervies</FaArrowLeft>
-        <div className={styles.inner}>
-          <div className={styles.innerContiner}>
-            <h1 className={styles.title}>{data[currentSlide].title}</h1>
-            <p className={styles.title}>{data[currentSlide].content}</p>
-            <div className={styles.tools}>{data[currentSlide].tool}</div>
-            <section>
-              <motion.a href={data[currentSlide].link} target="block">
-                Link
-              </motion.a>
-              <motion.a href={data[currentSlide].github} target="block">
-                Github
-              </motion.a>
-            </section>
-          </div>
-          <motion.img src={data[currentSlide].url} />
-          {/* <div className={styles.blur}></div> */}
-        </div>
-
-        <FaArrowRight onClick={nextSlide}>next</FaArrowRight>
-      </div>
+      <div className={styles.cont}>{project}</div>
     </div>
   );
 }

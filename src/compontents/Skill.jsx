@@ -2,10 +2,14 @@
 import {
   SiCss3,
   SiCssmodules,
+  SiExpress,
   SiFirebase,
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiMongodb,
+  SiMongoose,
+  SiNodedotjs,
   SiNpm,
   SiReact,
   SiReactrouter,
@@ -29,6 +33,10 @@ const icons = [
   { icon: <SiRedux />, name: "Redux" },
   { icon: <SiCssmodules />, name: "css modules" },
   { icon: <SiFirebase />, name: "Basics firebase" },
+  { icon: <SiNodedotjs />, name: "Node Js" },
+  { icon: <SiExpress />, name: "Express Js" },
+  { icon: <SiMongodb />, name: "Mongo DB" },
+  { icon: <SiMongoose />, name: "Mongoose" },
 ];
 
 const iconsAmination = (i) => ({

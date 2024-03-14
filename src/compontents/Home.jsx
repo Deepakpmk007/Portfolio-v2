@@ -56,7 +56,7 @@ function Home() {
           I'm <span>Deepak K</span>
         </motion.h1>
         <motion.h2 variants={h2} initial="initial" animate="animation">
-          front-end developer.
+          full stack developer.
         </motion.h2>
       </div>
       <motion.svg
